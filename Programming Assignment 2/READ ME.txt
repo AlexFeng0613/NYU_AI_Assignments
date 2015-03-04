@@ -1,0 +1,13 @@
+This assignment is written in java.
+
+This assignment consists three programs: frontend processing the maze, the dpll function and the backend processing the result.
+
+No command is required, the programs can show the result directly.
+
+frontend reads a file from its directory: ./src/file/maze.txt, and thus can generate the result, write it back into the file "FrontEndOutput.txt" at the same location.
+
+dpll reads file from its file ./src/file/, I have put two file under this directory to help the grader checking if this algorithm is true. Also this program shows the two base case, singleton and pure literal case and other cases, and the step at which the program runs to.
+
+backend reads a file from the folder as shown just in its project. You can see it the file system. Reads from BackEndInput.txt and write into BackEndOutput.txt.
+
+That is all the project list. Thanks for reading and compiling!

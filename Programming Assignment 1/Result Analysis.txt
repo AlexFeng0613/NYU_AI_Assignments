@@ -1,0 +1,5 @@
+I define the number of N between 5 and 9. If the value is less than 4 such instance may occur that the value and time will fall below 0. And the upperbound is 9 since I do not wanna the output of the task list occupies too much space. The displaying window is limited by size.
+
+After 5 times running I find that the fraction fall in the extent[0.2,0.3] the most, about 3 times. Only one time it is o.31 and one is 0.19.
+
+For the max and min state it is a fixed number: max is 25 and min is 1. This accounting result is as expected, The two  data seem distribute uniformly.

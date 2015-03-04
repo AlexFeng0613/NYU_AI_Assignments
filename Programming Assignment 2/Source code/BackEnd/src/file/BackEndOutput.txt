@@ -1,0 +1,6 @@
+Solution is:
+At step 0 at node :START
+At step 1 at node :A
+At step 2 at node :START
+At step 3 at node :B
+At step 4 at node :GOAL

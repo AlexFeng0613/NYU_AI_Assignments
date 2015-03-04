@@ -1,0 +1,17 @@
+This assignment is written in java.
+
+For the input there is no need to manually input the task information: ID, value, time requirement, and prerequisite. All is created by the random function.
+
+Every experienment the program will print out the task list, including the id, value, time requirement and its succeeding tasks. For the convenience of task calling I do not define the prerequisite list, but I use the succeeding list as an instead.
+
+There are 6 classes in this assignment. stateSpaceSearch is where the main function locates. To compile this code all classes must be in the same package. 
+
+Class task defines one task, with the properties. 
+
+Class State is task list with value, time and the succeeding list that can be add to the state so that turn to another state.
+
+Queue is the basic abstract data structure as its name.
+
+Class StateResult is the result after one IDF algorithms, storing information such as the solution list, the total value, total time, whether is a right solution and the states created during this process.
+
+ExperienmentResult works as a recorder of one experienment, using for counting the max and min states number, and the fraction that have solutions.
